@@ -1,6 +1,73 @@
-@import 'fonts.css';
+@import "fonts.css";
 
 * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "roboto";
+}
+/* header and main start */
+.main__header {
+  text-align: center;
+  padding: 15px 0;
+}
+.main__h2 {
+  color: #151414;
+  font-size: 54px;
+  font-weight: 770;
+}
+.main__p {
+  color: #3b433e;
+  font-size: 24px;
+  font-weight: 750;
+}
+.main__box {
+  display: flex;
+  justify-content: space-around;
+  padding: 61px;
+}
+.main__cards {
+  width: 270px;
+  min-height: 245px;
+  text-align: center;
+}
+.main__cards-img {
+  padding: 36px 0;
+}
+.main__h3 {
+  font-size: 28px;
+  font-weight: 770;
+  color: #181d19;
+  padding: 18px 0;
+}
+.main__cards-p {
+  font-size: 18px;
+  font-weight: 750;
+  font-family: "roboto";
+}
+
+.main__contaner{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 61px;
+}
+
+.main__card{
+    width: 150px;
+    height: 130px;
+    text-align: center;
+}
+.main__card-h3{
+    color: #000;
+    font-size: 44px;
+    font-weight: 700;
+    padding: 20px;
+}
+.main__-card-p{
+    color: #545454;
+    font-size: 20px;
+    font-weight: 768;
+=======
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -89,4 +156,5 @@ text-align: center;
 font-size: 54px;
 font-style: normal;
 font-weight: 700;
+
 }
