@@ -6,3 +6,87 @@
     box-sizing: border-box;
     font-family: 'roboto';
 }
+
+.container {
+    max-width: 1330px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+.section5 {
+    margin-top: 180px;
+    text-align: center;
+}
+
+.section5__title {
+    color: #151414;
+    text-align: center;
+    font-size: 54px;
+    font-weight: 700;
+}
+
+.section5__subtitle {
+    margin-top: 15px;
+    color: #3B433E;
+text-align: center;
+font-size: 24px;
+font-weight: 400;
+}
+
+.section5__card {
+    padding: 50px 30px;
+    text-align: center;
+    max-width: 356px;
+    width: 100%;
+    min-height: 520px;
+    border-radius: 20px;
+border: 1px solid #EBEBEB;
+background: #FFF;
+}
+
+.section5__card-title {
+    margin-top: 25px;
+    color: var(--black, #181D19);
+font-size: 30px;
+font-weight: 700;
+}
+
+.section5__card-text {
+    margin-top: 20px;
+font-size: 18px;
+font-weight: 400;
+line-height: 28px;
+}
+
+.section5__cards {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.section5__link {
+    margin-top: 60px;
+    display: inline-flex;
+    justify-content: center;
+    color: #FFF;
+    border-radius: 50px;
+    padding: 16px 65px;
+background: var(--green-gradient, linear-gradient(180deg, #64BB47 0%, #2C9553 100%));
+margin-bottom: 120px;
+}
+
+
+
+
+.section6__title {
+    color: #151414;
+text-align: center;
+font-size: 54px;
+font-style: normal;
+font-weight: 700;
+}
